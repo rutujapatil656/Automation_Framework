@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="159710" started-at="2019-06-07T15:57:13Z" finished-at="2019-06-07T15:59:52Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="159710" started-at="2019-06-07T15:57:13Z" finished-at="2019-06-07T15:59:52Z">
+      <class name="com.PPM.qa.testcases.HomePageTest">
+        <test-method status="PASS" signature="setup()" name="setup" is-config="true" duration-ms="21607" started-at="2019-06-07T15:57:13Z" finished-at="2019-06-07T15:57:34Z">
+        </test-method>
+        <test-method status="PASS" signature="validateHomePageTitleTest()" name="validateHomePageTitleTest" duration-ms="14" started-at="2019-06-07T15:57:34Z" finished-at="2019-06-07T15:57:34Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="2311" started-at="2019-06-07T15:57:34Z" finished-at="2019-06-07T15:57:37Z">
+        </test-method>
+        <test-method status="PASS" signature="setup()" name="setup" is-config="true" duration-ms="19997" started-at="2019-06-07T15:58:56Z" finished-at="2019-06-07T15:59:16Z">
+        </test-method>
+        <test-method status="PASS" signature="verifyusernameTest()" name="verifyusernameTest" duration-ms="1624" started-at="2019-06-07T15:59:16Z" finished-at="2019-06-07T15:59:17Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="2316" started-at="2019-06-07T15:59:17Z" finished-at="2019-06-07T15:59:20Z">
+        </test-method>
+      </class>
+      <class name="com.PPM.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setup()" name="setup" is-config="true" duration-ms="4774" started-at="2019-06-07T15:57:37Z" finished-at="2019-06-07T15:57:41Z">
+        </test-method>
+        <test-method status="PASS" signature="loginPageTitleTest()" name="loginPageTitleTest" duration-ms="12" started-at="2019-06-07T15:57:41Z" finished-at="2019-06-07T15:57:41Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="57" started-at="2019-06-07T15:57:41Z" finished-at="2019-06-07T15:57:42Z">
+        </test-method>
+        <test-method status="PASS" signature="setup()" name="setup" is-config="true" duration-ms="4255" started-at="2019-06-07T15:59:20Z" finished-at="2019-06-07T15:59:24Z">
+        </test-method>
+        <test-method status="PASS" signature="loginTest()" name="loginTest" duration-ms="26093" started-at="2019-06-07T15:59:24Z" finished-at="2019-06-07T15:59:50Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="2308" started-at="2019-06-07T15:59:50Z" finished-at="2019-06-07T15:59:52Z">
+        </test-method>
+      </class>
+      <class name="com.PPM.qa.testcases.ProjectPageTest">
+        <test-method status="PASS" signature="setup()" name="setup" is-config="true" duration-ms="20846" started-at="2019-06-07T15:57:42Z" finished-at="2019-06-07T15:58:03Z">
+        </test-method>
+        <test-method status="PASS" signature="createProgramTest3(java.lang.String, java.lang.String)" name="createProgramTest3" duration-ms="14147" started-at="2019-06-07T15:58:03Z" finished-at="2019-06-07T15:58:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TEMPLATE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Product Development Program Template]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="2325" started-at="2019-06-07T15:58:17Z" finished-at="2019-06-07T15:58:20Z">
+        </test-method>
+        <test-method status="PASS" signature="setup()" name="setup" is-config="true" duration-ms="20137" started-at="2019-06-07T15:58:20Z" finished-at="2019-06-07T15:58:40Z">
+        </test-method>
+        <test-method status="PASS" signature="createProgramTest3(java.lang.String, java.lang.String)" name="createProgramTest3" duration-ms="13905" started-at="2019-06-07T15:58:40Z" finished-at="2019-06-07T15:58:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[COMMENT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="2308" started-at="2019-06-07T15:58:54Z" finished-at="2019-06-07T15:58:56Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

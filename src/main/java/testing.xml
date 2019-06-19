@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="PPMAutomationSuite">
+
+<listeners> 
+		<listener class-name="com.TestProject.qa.extentReportListener.ExtentManager" />
+	</listeners>
+	<test name="TestBasicFunctionality">
+	
+	
+		<classes>
+			
+			<class name="com.PPM.qa.testcases.LoginPageTest" />
+			<class name="com.PPM.qa.testcases.HomePageTest" />
+			<class name="com.PPM.qa.testcases.ProjectPageTest" />
+			
+		</classes>
+	</test>
+</suite>
